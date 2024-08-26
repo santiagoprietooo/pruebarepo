@@ -3,8 +3,11 @@ const port = 3000;
 const server = http.createServer( ( request, response )=> {
     response.writeHead(200, { 'Content-Type': 'text/plain' });
     const url = request.url;
-    const controller = url.split('/');
-    console.log(controller);
+    const array = url.split('/');
+    const controller = array[1] ? array[1]:  null;
+    const id = array[2] ? array[2] : null;
+    console.log(controller, id);
+    
     if( url == '/'){
         response.end('home');
     } else if ( url == '/coffee'){
