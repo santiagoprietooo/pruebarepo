@@ -7,7 +7,6 @@
     ``` bash
         git config user.name "John Do"
         git config user.mail "johndo@mail.com"
-
     ```
 3. Agrego los archivos
     ``` bash
@@ -35,6 +34,17 @@
 
 
 # Pasos para trabar con un repositorio ya creado
-
+1. Abro una carpeta
+2. Clono el repositorio
+    ![Captura](Captura.png)
+    ``` bash
+        https://github.com/jonathancruzdev/pruebarepo.git
+    ```
+3. Configuro el usuario y e-mail
+    ``` bash
+        git config user.name "John Do"
+        git config user.mail "johndo@mail.com"
+    ```
+4. Realizo git add.... 
 
 # Pasos para trabar con un repositorio en Equipo
