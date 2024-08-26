@@ -14,13 +14,24 @@
         git add main.js
         git add .
     ```
-
-
 4. Creo el commit 
-5. Creo el repositorio
+    ``` bash
+        git commit -m "Proyecto base."
+    ```
+5. Creo el repositorio en GITHUB
+6. Vínculamos el repo local con la nube
+    ``` bash
+        git remote add origin https://github.com/jonathancruzdev/pruebarepo.git
+    ```
 6. Realizo el push
+    ``` bash
+        git push origin master
+    ```
 
 
+1. git add .
+2. git commit -m "Descripción"
+3. git push orign master
 
 
 # Pasos para trabar con un repositorio ya creado
